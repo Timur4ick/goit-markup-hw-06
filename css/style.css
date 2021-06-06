@@ -857,7 +857,7 @@ a.current::after {
   outline: none;
 }
 
-.modal-form-input:focus + .modal-icon {
+.modal-form-input:focus + .modal-form-icon {
   fill: var(--special-text-color);
 }
 
