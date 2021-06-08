@@ -351,7 +351,7 @@ a.current::after {
   padding-top: 50px;
 }
 
-.image-sup {
+.img-box {
   position: relative;
 }
 
@@ -930,6 +930,19 @@ a.current::after {
 .modal-form-checkbox:checked + .modal-form-checkbox-policy::before {
   outline: none;
   border-color: var(--special-text-color);
+}
+
+.modal-form-name {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: var(--main-text-color);
+}
+
+.modal-button {
+  margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 .modal-form-btn {
